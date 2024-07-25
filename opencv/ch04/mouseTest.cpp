@@ -1,3 +1,4 @@
+// 07-25(목) 마우스 사용하기
 #include "opencv2/opencv.hpp"
 #include <iostream>
 

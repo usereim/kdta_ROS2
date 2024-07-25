@@ -23,12 +23,12 @@
 - 파일 데이터 읽기
 > 1. fs.open(folder + "myData.json", FileStorage::READ); // 읽기 모드로 파일 열기
 > 2. 키워드로 json파일의 데이터에 접근하여 데이터 저장
-> >    fs["키워드"] >> 저장할 데이터 변수;
-> >    fs["name"] >> name;
-> >    fs["mat1"] >> img;
-> >    fs["age"] >> age;
-> >    fs["point"] >> pt;
-> >    fs["vector"] >> v;
+>   fs["키워드"] >> 저장할 데이터 변수;
+>   fs["name"] >> name;
+>   fs["mat1"] >> img;
+>   fs["age"] >> age;
+>   fs["point"] >> pt;
+>   fs["vector"] >> v;
 
 4. Mask 연산
 > 마스크를 사용하여 영상의 특정부분의 값을 변경 할 수 있다.

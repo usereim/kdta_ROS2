@@ -30,6 +30,18 @@
 > setTo(), copyTo() 함수를 이용하여 마스크 값을 영상에 적용한다.
 > ex) lennaimg.setTo(yellow, maskSmile);
 
+5. 영상 밝기 조절
+- 그레이 스케일 영상
+> Mat imgGray = imread(folder + "lena.bmp", IMREAD_GRAYSCALE); // 그레이스케일로 설정
+> imgGray = imgGray + 50; // 그레이스케일 밝기 조절 (단순 수치 조절)
+
+- 히스토그램 분석
+> 세밀한 밝기 조절 가능
+> 이미지의 픽셀 값 분포도를 분석
+> calcHist() 함수를 사용하여 이미지의 히스토그램 분석
+> 
+
+6. 필터링
 ---
 ## 2024 - 07 - 24
 

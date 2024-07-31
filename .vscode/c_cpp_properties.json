@@ -3,7 +3,10 @@
         {
             "name": "kdta_ros2",
             "includePath": [
-                "/usr/include/**"
+                "/usr/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/jty6109/kdta_ws/src/kdta_ROS2/move_t_sim/include/**",
+                "/home/jty6109/kdta_ws/src/kdta_ROS2/simple_pkg_cpp/include/**"
             ],
             "intelliSenseMode": "linux-gcc-x64",
             "compilerPath": "/usr/bin/gcc",

@@ -10,5 +10,5 @@ HelloSubscriber::HelloSubscriber()
 
 void HelloSubscriber::sub_helloworld_msg(const std_msgs::msg::String::SharedPtr msg)
 {
-    cout << "I heard: " << msg->data << endl;
+    RCLCPP_INFO(get_logger(), "i heard : '%s'", msg->data.c_str());
 }
